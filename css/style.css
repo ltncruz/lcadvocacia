@@ -789,7 +789,12 @@ body.menu-open{ overflow:hidden; }
   padding-block:clamp(3rem,6vw,4.5rem);
 }
 .footer-brand{ display:flex; flex-direction:column; align-items:flex-start; gap:.5rem; }
-.footer-brand img{ width:44px; margin-bottom:.4rem; }
+.footer-brand img {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: .4rem;
+}
 .footer-brand strong{ font-family:var(--font-display); font-size:1.2rem; }
 .footer-brand span{ font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; color:var(--c-gold); }
 .footer-col h4{
